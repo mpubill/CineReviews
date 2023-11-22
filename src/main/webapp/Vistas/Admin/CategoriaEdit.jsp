@@ -13,6 +13,6 @@
         <input type="submit" value="Guardar Cambios">
     </form>
     
-    <a href="/TuProyecto/CategoriaController?accion=listarCategorias">Volver al Listado de Categorías</a>
+    <a href="${pageContext.request.contextPath}/CategoriaController?accion=listarCategorias">Volver al Listado de Categorías</a>
 </body>
 </html>

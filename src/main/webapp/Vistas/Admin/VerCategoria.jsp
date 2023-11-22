@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Listado de Categorías</title>
@@ -26,6 +27,10 @@
         </table>
     </c:if>
     
-    <a href="/TuProyecto/CategoriaController?accion=mostrarFormularioAgregar">Agregar Nueva Categoría</a>
+    <c:if test="${empty categorias}">
+        <p>No hay categorías disponibles.</p>
+    </c:if>
+    
+    <a href="${pageContext.request.contextPath}/CategoriaController?accion=mostrarFormularioAgregar">Agregar Nueva Categoría</a>
 </body>
 </html>
