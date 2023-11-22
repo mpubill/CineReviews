@@ -1,0 +1,12 @@
+Controladores\UsuarioController.class
+db\cn.class
+Modelos\Usuario.class
+com\mycompany\cinereviews\resources\JavaEE8Resource.class
+Controladores\CategoriaController.class
+Modelos\Comentario.class
+Modelos\Pelicula.class
+modelosDAO\UsuarioDAO.class
+Modelos\Categoria.class
+modelosDAO\CategoriaDAO.class
+com\mycompany\cinereviews\JAXRSConfiguration.class
+Modelos\Resenia.class
